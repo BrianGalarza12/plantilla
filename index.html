@@ -28,9 +28,16 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Lugares</a>
-                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Lugares
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Sobre nosotros</a>
                         </li>
@@ -42,35 +49,75 @@
             </div>
         </nav>
         <img src="assets/valle1.jpg" class="imagen_de_fondo" alt="valle de cordoba">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Conociendo Córdoba</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Lugares</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Contacto</a>
-                        </li>
-                    </ul>
+    </header>
+    <main class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 mt-2">
+                <h1>Turismo en Córdoba</h1>
+            </div>
+            <div class="col-9 col-lg-6 mt-3">
+                <p>
+                    La Provincia de Córdoba es un destino ideal para experimentar las más diversas sensaciones que a un
+                    viajero le puedan provocar placer. Con una indeleble impronta cultural e histórica, nuestro
+                    territorio combina tradición, modernidad y una excepcional riqueza paisajística. Por la variedad de
+                    destinos que propone su geografía, es un lugar donde el turista podrá disfrutar todo el año
+                    propuestas siempre novedosas.</p>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-12">
+                <h2>Bienvenidos a...</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, beatae ex quaerat enim optio ut
+                    quia
+                    provident laborum magnam in eos quasi commodi blanditiis error distinctio. Repudiandae unde
+                    autem
+                    iusto. Nulla optio nemo distinctio ratione amet provident excepturi sed repudiandae quos. Porro,
+                    dolore ex error amet, aliquam repellat ducimus quos velit doloremque sit, nisi quo consectetur.
+                    Accusantium eligendi tenetur a illo, dolores voluptate sapiente omnis aut quis modi perspiciatis
+                    similique!</p>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <h3>Geografía</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat recusandae inventore repudiandae
+                    dolore minus voluptatibus ut sed, voluptas fugit quae incidunt modi quasi a vitae dolor delectus
+                    accusantium repellendus neque aperiam! Placeat, dolores! Enim deserunt doloremque voluptatem, quia
+                    officiis iusto asperiores rerum. Odit similique dolores soluta, nihil nobis accusamus ullam
+                    distinctio dicta aspernatur ipsa cumque omnis saepe repellendus dolore harum cupiditate. Eos
+                    assumenda placeat eveniet autem id veniam quam illo.</p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                    <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+                    <script>(function () {
+                            var setting = { "height": 400, "width": 600, "zoom": 17, "queryString": "Calamuchita, Santa Rosa de Calamuchita, Córdoba, Argentina", "place_id": "EjtDYWxhbXVjaGl0YSwgU2FudGEgUm9zYSBkZSBDYWxhbXVjaGl0YSwgQ8OzcmRvYmEsIEFyZ2VudGluYSIuKiwKFAoSCbvT4ntNu9KVEWYL3A08UA7GEhQKEgk9EyUtQLvSlRGIV8efAb-dBg", "satellite": true, "centerCoord": [-32.070783409950415, -64.5291445], "cid": "0xc60e503c0ddc0b66", "lang": "es", "cityUrl": "/argentina/santa-rosa-de-calamuchita-258364", "cityAnchorText": "Mapa de Santa Rosa de Calamuchita, South Argentina, Argentina", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "821405" };
+                            var d = document;
+                            var s = d.createElement('script');
+                            s.src = 'https://1map.com/js/script-for-user.js?embed_id=821405';
+                            s.async = true;
+                            s.onload = function (e) {
+                                window.OneMap.initMap(setting)
+                            };
+                            var to = d.getElementsByTagName('script')[0];
+                            to.parentNode.insertBefore(s, to);
+                        })();</script><a href="https://1map.com/es/map-embed">1 Map</a>
                 </div>
             </div>
-        </nav>
-    </header>
-    <main>
-
+        </div>
+        <div class="row mt-4">
+            <h2 class="">Actividades que se pueden realizar</h2>
+            <ul>
+                <li>Que hacer</li>
+                <li>Lugares por visitar</li>
+                <li>Sitios historicos</li>
+                <li>Restaurantes</li>
+                <li>Fiestas</li>
+            </ul>
+        </div>
     </main>
+   
     <footer>
 
     </footer>
